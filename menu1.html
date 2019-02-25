@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>LuckyDog</title>
+    <link rel="stylesheet" href="css/main.css" />
+    <script type="text/javascript" src="js/main.js"></script>
+    <script type="text/javascript" src="js/jquery-1.11.0.js"></script>
+</head>
+
+<body>
+    <div class="mbody">
+        <div class="title font1"></div>
+        <div class="hr"></div>
+        <div class="xmenu">
+            <div class="xm xm1" onclick="go(1)"></div>
+            <div class="xm xm2" onclick="go(2)"></div>
+            <div class="xm xm3" onclick="go(3)"></div>
+        </div>
+        <div class="L d">
+            <div class="p">
+                <div class="png L1"></div>
+                <div class="txt1">
+                    <h2>藏獒</h2>
+                    <h3>英文名：Tibetan Mastiff</h3>
+                    <h3>功能：工作犬</h3>
+                    <h3>寿命：12-15</h3>
+                    <h3>性格：凶猛、忠诚、对人较不友好</h3>
+                    <h3>原产地：中国西藏</h3>
+                </div>
+            </div>
+            <div class="p">
+                <div class="png L2"></div>
+                <div class="txt1">
+                    <h2>金毛犬</h2>
+                    <h3>英文名：Golden Retriever</h3>
+                    <h3>功能：家庭犬</h3>
+                    <h3>寿命：12-15</h3>
+                    <h3>性格：温顺忠实、热情友善、聪明机警好</h3>
+                    <h3>原产地：苏格兰</h3>
+                </div>
+            </div>
+            <div class="p">
+                <div class="png L3"></div>
+                <div class="txt1">
+                    <h2>阿拉斯加犬</h2>
+                    <h3>英文名：Alaskan Malamute</h3>
+                    <h3>功能：雪橇犬</h3>
+                    <h3>寿命：12-15</h3>
+                    <h3>性格：友好，忠诚，较自由散漫</h3>
+                    <h3>原产地：阿拉斯加西部</h3>
+                </div>
+            </div>
+            <div class="p">
+                <div class="png L4"></div>
+                <div class="txt1">
+                    <h2>德国牧羊犬</h2>
+                    <h3>英文名：German shepherd</h3>
+                    <h3>功能：工作犬</h3>
+                    <h3>寿命：10-11</h3>
+                    <h3>性格：性格坚强自信温顺，警惕且驯服</h3>
+                    <h3>原产地：德国</h3>
+                </div>
+            </div>
+            <div class="p">
+                <div class="png L5"></div>
+                <div class="txt1">
+                    <h2>秋田犬</h2>
+                    <h3>英文名：Akita dog</h3>
+                    <h3>功能：工作犬</h3>
+                    <h3>寿命：10-12</h3>
+                    <h3>性格：勇敢无畏 很高警惕性</h3>
+                    <h3>原产地：日本</h3>
+                </div>
+            </div>
+            <div class="p">
+                <div class="png L6"></div>
+                <div class="txt1">
+                    <h2>高加索犬</h2>
+                    <h3>英文名：Caucasian Sheepdog</h3>
+                    <h3>功能：工作犬</h3>
+                    <h3>寿命：9-11</h3>
+                    <h3>性格：可安静，可活跃，对陌生人比较有敌意</h3>
+                    <h3>原产地：前苏联</h3>
+                </div>
+            </div>
+
+            <a href="javascript:;">
+                <div class="return" onclick="backL()"></div>
+            </a>
+        </div>
+        <div class="M d">
+            <div class="p">
+                <div class="png M1"></div>
+                <div class="txt1">
+                    <h2>哈士奇</h2>
+                    <h3>英文名：husky</h3>
+                    <h3>功能：雪橇犬</h3>
+                    <h3>寿命：9-12</h3>
+                    <h3>性格：友好温和热情聪明热心，害怕孤单，精力旺盛运动量大</h3>
+                    <h3>原产地：俄罗斯</h3>
+                </div>
+            </div>
+            <div class="p">
+                <div class="png M2"></div>
+                <div class="txt1">
+                    <h2>拉布拉多犬</h2>
+                    <h3>英文名：Labrador dog</h3>
+                    <h3>功能：工作犬</h3>
+                    <h3>寿命：10-12</h3>
+                    <h3>性格：聪明警觉，善解人意，性格温顺平稳，对人友善忠诚，贪玩，喜欢和别人做游戏</h3>
+                    <h3>原产地：加拿大</h3>
+                </div>
+            </div>
+            <div class="p">
+                <div class="png M3"></div>
+                <div class="txt1">
+                    <h2>萨摩耶</h2>
+                    <h3>英文名：Samoyed</h3>
+                    <h3>功能：工作犬</h3>
+                    <h3>寿命：12-15</h3>
+                    <h3>性格：聪明性情温和忠诚，适应性强、警惕、充满活力、不胆怯</h3>
+                    <h3>原产地：俄罗斯</h3>
+                </div>
+            </div>
+            <div class="p">
+                <div class="png M4"></div>
+                <div class="txt1">
+                    <h2>柴犬</h2>
+                    <h3>英文名：Shiba Inu</h3>
+                    <h3>功能：家庭犬</h3>
+                    <h3>寿命：10-15</h3>
+                    <h3>性格：温顺忠实，有服从性，忍耐</h3>
+                    <h3>原产地：日本</h3>
+                </div>
+            </div>
+            <div class="p">
+                <div class="png M5"></div>
+                <div class="txt1">
+                    <h2>边境牧羊犬</h2>
+                    <h3>英文名：Border collie</h3>
+                    <h3>功能：牧羊犬</h3>
+                    <h3>寿命：12-14</h3>
+                    <h3>性格：温顺、敏锐、机警、灵敏、聪明、容易训练、温和、忠诚、顺从</h3>
+                    <h3>原产地：英国</h3>
+                </div>
+            </div>
+            <div class="p">
+                <div class="png M6"></div>
+                <div class="txt1">
+                    <h2>法国斗牛犬</h2>
+                    <h3>英文名：French bulldog</h3>
+                    <h3>功能：家庭犬</h3>
+                    <h3>寿命：12-14</h3>
+                    <h3>性格：非常友善聪明，脾气好</h3>
+                    <h3>原产地：法国</h3>
+                </div>
+            </div>
+
+            <a href="javascript:;">
+                <div class="return" onclick="backL()"></div>
+            </a>
+        </div>
+        <div class="S d">
+            <div class="p">
+                <div class="png S1"></div>
+                <div class="txt1">
+                    <h2>泰迪犬</h2>
+                    <h3>英文名：Teddy </h3>
+                    <h3>功能：玩具犬</h3>
+                    <h3>寿命：13-15</h3>
+                    <h3>性格：活泼，性情优良，忠实敏捷，聪明</h3>
+                    <h3>原产地：法国
+					</h3>
+                </div>
+            </div>
+            <div class="p">
+                <div class="png S2"></div>
+                <div class="txt1">
+                    <h2>蝴蝶犬</h2>
+                    <h3>英文名：Papillon</h3>
+                    <h3>功能：玩具犬</h3>
+                    <h3>寿命：12-13</h3>
+                    <h3>性格： 聪明、胆小友好</h3>
+                    <h3>原产地：法国、比利时</h3>
+                </div>
+            </div>
+            <div class="p">
+                <div class="png S3"></div>
+                <div class="txt1">
+                    <h2>博美犬</h2>
+                    <h3>英文名：Pomeranian</h3>
+                    <h3>功能：玩具犬</h3>
+                    <h3>寿命：10-14</h3>
+                    <h3>性格：温顺，积极，友善</h3>
+                    <h3>原产地：德国</h3>
+                </div>
+            </div>
+            <div class="p">
+                <div class="png S4"></div>
+                <div class="txt1">
+                    <h2>柯基犬</h2>
+                    <h3>英文名：Corgi</h3>
+                    <h3>功能：牧羊犬</h3>
+                    <h3>寿命：12-15</h3>
+                    <h3>性格：本性友好，勇敢大胆，性格温和</h3>
+                    <h3>原产地：英国</h3>
+                </div>
+            </div>
+            <div class="p">
+                <div class="png S5"></div>
+                <div class="txt1">
+                    <h2>吉娃娃</h2>
+                    <h3>英文名：Chihuahua</h3>
+                    <h3>功能：玩具犬</h3>
+                    <h3>寿命：13-14</h3>
+                    <h3>性格：优雅、警惕、动作迅速</h3>
+                    <h3>原产地：墨西哥</h3>
+                </div>
+            </div>
+            <div class="p">
+                <div class="png S6"></div>
+                <div class="txt1">
+                    <h2>茶杯犬</h2>
+                    <h3>英文名：Teacup Poodles</h3>
+                    <h3>功能：玩具犬</h3>
+                    <h3>寿命：14</h3>
+                    <h3>性格：小巧可爱</h3>
+                    <h3>原产地：美国</h3>
+                </div>
+            </div>
+
+            <a href="javascript:;">
+                <div class="return" onclick="backL()"></div>
+            </a>
+        </div>
+    </div>
+</body>
+
+</html>
